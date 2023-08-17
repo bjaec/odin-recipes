@@ -1,0 +1,62 @@
+* {
+    line-height: 1.5;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Fredoka One';
+    background-color: #c2a3d1;
+    
+}
+
+img {
+    width: 400px;
+    display: inline-block;
+    vertical-align: top;
+}
+
+h1{
+    color: white;
+}
+
+h2,h3 {
+    color:  rgb(206, 67, 40);
+}
+
+
+
+p {
+    margin-bottom: 20px;
+    color: rgb(147, 101, 58); /* Pastel brown color for <p> */
+}
+
+ul{
+    list-style-type: none; /* Removes bullet points */
+}
+
+li{
+    color: rgb(147, 101, 58); /* Pastel brown color for <p> */
+}
+
+div{
+    background-color: rgb(243, 211, 97); 
+    text-align: center;
+    color: rgb(206, 67, 40);
+}
+
+.recipe-content {
+    padding: 20px;
+    display: inline-block;
+    width: 580px;
+}
+
+ol {
+    color: rgb(147, 101, 58); /* Pastel brown color for <ol> */
+    text-align: center;
+    list-style-type: none; /* Removes bullet points */
+  }
+
+
+
