@@ -1,3 +1,3 @@
-# odin-recipes
+# Recipes Project
 
-First project building a website through Odin
+First project building a website for cooking recipes
