@@ -1,62 +1,56 @@
-* {
-    line-height: 1.5;
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
+/* styles.css */
+
+/* ... your other styles ... */
 
 body {
-    font-family: 'Fredoka One';
-    background-color: #c2a3d1;
-    
+    font-family: 'Fredoka One', cursive, sans-serif;
+    background-color: #ffe58a; /* Same yellow as the first page */
+    margin: 0; /* Remove default margin */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.recipe-content {
+    background-color: #ffcc66; /* Lighter pastel yellow */
+    text-align: center;
+    color: white; /* Set font color to white */
+    padding: 20px;
+    width: 580px;
+    display: flex;
+    align-items: center;
+    flex-direction: column; /* Center content vertically */
+    border-radius: 10px; /* Rounded corners */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Add subtle shadow */
+}
+
+.recipe-title {
+    font-size: 2rem;
+    margin-bottom: 20px;
 }
 
 img {
     width: 400px;
-    display: inline-block;
-    vertical-align: top;
+    margin-right: 20px; /* Space between image and text */
+    border-radius: 10px; /* Rounded corners for the image */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Add subtle shadow */
 }
 
-h1{
-    color: white;
+.recipe-info ul {
+    list-style-position: inside; /* Place bullet points inside the content area */
+    padding-left: 0; /* Reset left padding */
 }
 
-h2,h3 {
-    color:  rgb(206, 67, 40);
+.recipe-info ul li {
+    margin: 10px 0; /* Add some spacing between list items */
 }
 
-
-
-p {
-    margin-bottom: 20px;
-    color: rgb(147, 101, 58); /* Pastel brown color for <p> */
+.recipe-info ol {
+    list-style-position: inside; /* Place numbering inside the content area */
+    padding-left: 0; /* Reset left padding */
 }
 
-ul{
-    list-style-type: none; /* Removes bullet points */
+.recipe-info ol li {
+    margin: 10px 0; /* Add some spacing between list items */
 }
-
-li{
-    color: rgb(147, 101, 58); /* Pastel brown color for <p> */
-}
-
-div{
-    background-color: rgb(243, 211, 97); 
-    text-align: center;
-    color: rgb(206, 67, 40);
-}
-
-.recipe-content {
-    padding: 20px;
-    display: inline-block;
-    width: 580px;
-}
-
-ol {
-    color: rgb(147, 101, 58); /* Pastel brown color for <ol> */
-    text-align: center;
-    list-style-type: none; /* Removes bullet points */
-  }
-
-
-
