@@ -6,11 +6,17 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Recipes</title>
     <link rel="stylesheet" href="styles.css">
+    <script src="script.js" defer></script>
 </head>
 <body>
     <div class="container">
-        <h1 class="title">Recipes</h1>
-        <a class="recipe-link" href="recipes/eggs.html">Egg Recipe</a>
+        <h1 class="title" id="recipes-dropdown">Recipes</h1>
+        <div class="center-container">
+            <ul class="dropdown-menu" id="dropdown-list">
+                <li><a href="recipes/eggs.html" class="recipe-link">Egg Recipe</a></li>
+                <!-- Add more recipe links here -->
+            </ul>
+        </div>
     </div>
 </body>
 </html>

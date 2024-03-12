@@ -1,10 +1,10 @@
 // script.js
 
 document.addEventListener("DOMContentLoaded", function() {
-    const recipesButton = document.getElementById("recipes-button");
-    const recipesList = document.getElementById("recipes-list");
+    const recipesDropdown = document.getElementById("recipes-dropdown");
+    const dropdownList = document.getElementById("dropdown-list");
 
-    recipesButton.addEventListener("click", function() {
-        recipesList.style.display = (recipesList.style.display === "block") ? "none" : "block";
+    recipesDropdown.addEventListener("click", function() {
+        dropdownList.classList.toggle("active");
     });
 });

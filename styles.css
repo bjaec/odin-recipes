@@ -34,3 +34,44 @@ body {
 .recipe-link:hover {
     background-color: #ffcc66; /* Lighter pastel yellow on hover */
 }
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-menu {
+    display: none;
+    position: absolute;
+    background-color: #ffad33; /* Slightly darker pastel yellow */
+    list-style: none;
+    padding: 0;
+    border-radius: 5px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    margin-top: 5px;
+}
+
+.dropdown-menu.active {
+    display: block;
+}
+
+/* Apply "Egg Recipe" styles to the dropdown links */
+.dropdown-menu a {
+    display: block;
+    padding: 10px 20px;
+    background-color: #ffad33; /* Slightly darker pastel yellow */
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.dropdown-menu a:hover {
+    background-color: #ffcc66; /* Lighter pastel yellow on hover */
+}
+
+.center-container {
+    display: flex;
+    justify-content: center;
+}
+ 
