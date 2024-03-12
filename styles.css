@@ -1,5 +1,7 @@
 /* styles.css */
 
+/*=============== General ===============*/
+
 body {
     margin: 0;
     padding: 0;
@@ -20,6 +22,7 @@ body {
     margin-bottom: 1rem;
 }
 
+/*=============== Recipes ===============*/
 
 .recipe-link {
     display: inline-block;
@@ -34,6 +37,8 @@ body {
 .recipe-link:hover {
     background-color: #ffcc66; /* Lighter pastel yellow on hover */
 }
+
+/*=============== Dropdown Menu Functionality ===============*/
 
 .dropdown {
     position: relative;
